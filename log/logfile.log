@@ -1,0 +1,373 @@
+[2017-03-19 18:57:24]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 18:57:24]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 18:57:24]
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:9888/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 18:57:24]
+HTTP/1.1 404 NOT FOUND
+Content-Type: text/html; charset=utf-8
+Content-Length:327
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html>
+[2017-03-19 18:57:32]
+GET /docroot/b HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9888/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 18:57:32]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=b
+Content-Length:10
+
+test
+test
+
+[2017-03-19 18:58:07]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 18:58:07]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 19:05:25]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:05:25]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 19:06:42]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:06:42]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 19:12:26]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:12:26]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 19:13:35]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:13:35]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 19:13:44]
+GET /docroot/a HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9888/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:13:44]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a
+Content-Length:5
+
+test
+
+[2017-03-19 19:14:49]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:14:49]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
+[2017-03-19 19:17:17]
+GET /docroot/a HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9888/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:17:17]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a
+Content-Length:5
+
+test
+
+[2017-03-19 19:20:26]
+GET / HTTP/1.1
+Host: 127.0.0.1:9888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2017-03-19 19:20:26]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length:489
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a">a</a>
+<a href="../docroot/d">d</a>
+<a href="../docroot/b">b</a>
+<a href="../docroot/c">c</a>
+</body>
+</html>
+
