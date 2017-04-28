@@ -94,7 +94,7 @@ void connect_thread_entrance(SOCKET *connect_socket_)
 	pthread_mutex_unlock(&_mutex);
 	
 	close(*connect_socket_);
-	pthread_exit(NULL);//结束线程
+	pthread_exit(NULL);//等待结束线程
 	return ;
 }
 //初始化互斥锁，接受请求然后创建新线程
