@@ -110,10 +110,9 @@ void server_work()
 					(struct sockaddr * ) &client_socket, &size);
 		//创建线程
 		pthread_t thread_id;
-		pthread_mutex_init(&_mutex, NULL);
 		int ret = pthread_create(&thread_id, NULL, 
-						(void *)connect_thread_entrance, 
-						(void *)&connect_socket);
+					(void *)connect_thread_entrance, 
+					(void *)&connect_socket);
 
 		if (ret == -1) {
 			printf("Pthread create fail!\n");
